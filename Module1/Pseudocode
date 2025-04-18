@@ -1,0 +1,47 @@
+
+person.cpp
+
+// Program: Display fictional person's information
+Program person
+    Declare string variables: firstName, lastName, streetAddress, city, zipCode
+    Set firstName to "John"
+    Set lastName to "Doe"
+    Set streetAddress to "123 Main St"
+    Set city to "Anytown"
+    Set zipCode to "12345"
+    Print "First Name: " + firstName
+    Print "Last Name: " + lastName
+    Print "Street Address: " + streetAddress
+    Print "City: " + city
+    Print "Zip Code: " + zipCode
+    Return 0
+End Program
+
+
+CSC450_CT1_mod1-1.cpp
+
+// Program: Display welcome message
+Program mod1-1
+    Include iostream library
+    Use standard namespace
+    Function main
+        Print "Welcome to this C++ Program"
+        Print "I have corrected all errors for this program."
+        Return 0
+    End Function
+End Program
+
+
+CSC450_CT1_mod1-2.cpp
+
+// Program: Display money amount
+Program mod1-2
+    Include iostream library
+    Use standard namespace
+    Function main
+        Declare double myMoney and set to 1000.50
+        Print "I have corrected all errors for this program."
+        Print "The total amount of money available is = " + myMoney
+        Return 0
+    End Function
+End Program
