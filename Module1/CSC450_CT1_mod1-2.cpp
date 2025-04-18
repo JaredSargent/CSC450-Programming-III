@@ -1,4 +1,3 @@
-
 // CSC450_CT1_mod1-2.cpp
 // Corrected program to display money amount
 
