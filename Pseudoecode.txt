@@ -1,0 +1,15 @@
+Start
+    Declare two string variables: string1, string2
+    Declare a string variable for the result: concatenatedString
+
+    Loop 3 times
+        Display a message asking for the first string input
+        Get the first string input (string1)
+        Display a message asking for the second string input
+        Get the second string input (string2)
+
+        Concatenate string1 and string2 and store in concatenatedString
+
+        Display the concatenated string
+
+End
