@@ -1,0 +1,45 @@
+BEGIN
+    // Declare variables
+    Declare three integer variables: num1, num2, num3
+    Declare three integer pointers: ptr1, ptr2, ptr3
+    
+    // Get user input
+    Display "Enter first integer: "
+    Input num1
+    Display "Enter second integer: "
+    Input num2
+    Display "Enter third integer: "
+    Input num3
+    
+    // Allocate dynamic memory using new operator
+    Set ptr1 = new integer
+    Set ptr2 = new integer
+    Set ptr3 = new integer
+    
+    // Assign values to pointers
+    Set *ptr1 = num1
+    Set *ptr2 = num2
+    Set *ptr3 = num3
+    
+    // Display results
+    Display "Variable Values:"
+    Display "num1 = " + num1
+    Display "num2 = " + num2
+    Display "num3 = " + num3
+    
+    Display "Pointer Values:"
+    Display "*ptr1 = " + *ptr1
+    Display "*ptr2 = " + *ptr2
+    Display "*ptr3 = " + *ptr3
+    
+    Display "Pointer Addresses:"
+    Display "ptr1 = " + ptr1
+    Display "ptr2 = " + ptr2
+    Display "ptr3 = " + ptr3
+    
+    // Free memory using delete operator
+    Delete ptr1
+    Delete ptr2
+    Delete ptr3
+    
+END
