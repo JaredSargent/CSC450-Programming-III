@@ -1,0 +1,34 @@
+// Program: User Input and File Reversal
+// Input: User-provided string
+// Output: Appended data in CSC450_CT5_mod5.txt and reversed data in CSC450-mod5-reverse.txt
+
+1. START
+2. Declare variables:
+   - input: string to store user input
+   - content: string to store file content
+3. Prompt user for input
+4. Read user input into input variable
+5. Open CSC450_CT5_mod5.txt in append mode
+6. IF file opens successfully:
+   a. Write user input to file
+   b. Close file
+7. ELSE:
+   a. Display error message
+   b. Exit program
+8. Open CSC450_CT5_mod5.txt in read mode
+9. IF file opens successfully:
+   a. Read all content into content variable
+   b. Close file
+10. ELSE:
+    a. Display error message
+    b. Exit program
+11. Reverse content string
+12. Open CSC450-mod5-reverse.txt in write mode
+13. IF file opens successfully:
+    a. Write reversed content to file
+    b. Close file
+14. ELSE:
+    a. Display error message
+    b. Exit program
+15. Display success message
+16. END
